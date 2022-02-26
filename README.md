@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>HAProxy For Windows [v2.1.5]</h1>
+    <h1>HAProxy For Windows [v2.5.3]</h1>
     <img src="./HAProxyCE.png" width="250" />
     <p align="center">
         The Reliable, High Performance TCP/HTTP Load Balancer
@@ -8,9 +8,6 @@
 
 <br>
 
-**TLDR;** Download last release <https://github.com/nidorx/haproxy-windows/releases/tag/v2.1.5>
-
-<br>
 
 HAProxy is a free, very fast and reliable solution offering [high availability](http://en.wikipedia.org/wiki/High_availability),
  [load balancing](http://en.wikipedia.org/wiki/Load_balancer), and proxying for TCP and HTTP-based applications. 
@@ -67,10 +64,10 @@ Compilation and installation of HAProxy in Windows
     ```
 4. Download source code (inside cygwin64 terminal)
     ```
-    wget http://www.haproxy.org/download/2.1/src/haproxy-2.1.5.tar.gz
-    tar xzvf haproxy-2.1.5.tar.gz
-    rm -rf ./haproxy-2.1.5.tar.gz 
-    cd haproxy-2.1.5
+    wget http://www.haproxy.org/download/2.5/src/haproxy-2.5.3.tar.gz
+    tar xzvf haproxy-2.5.3.tar.gz
+    rm -rf ./haproxy-2.5.3.tar.gz 
+    cd haproxy-2.5.3.tar.gz
     ```
 5. Build (inside cygwin64 terminal)
     ```
@@ -93,7 +90,7 @@ Compilation and installation of HAProxy in Windows
    
     # delete trash (C:/cygwin64/home/YOUR_USER)
     cd ..
-    rm -rf ./haproxy-2.1.5
+    rm -rf ./haproxy-2.5.3
    
     # exit cygwin6 terminal
     exit
